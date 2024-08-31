@@ -13,7 +13,7 @@ export default function Landing() {
           <h2 className="scroll-m-20 text-xl sm:text-2xl font-semibold tracking-tight">
             Gabriel Maia
           </h2>
-          <p className="text-xs sm:text-sm text-muted-foreground">
+          <p className="mt-2 text-xs sm:text-sm text-muted-foreground">
             Desenvolvedor Full Stack focado em construir produtos
           </p>
           <p className="text-xs sm:text-sm text-muted-foreground">
@@ -46,6 +46,19 @@ export default function Landing() {
             height={300}
             className="rounded-lg"
           />
+        </div>
+      </div>
+      <div className="lg:w-[50%] h-full p-8 flex justify-between items-center">
+        <div className="lg:w-[70%]">
+          <h2 className="scroll-m-20 text-xl sm:text-2xl font-semibold tracking-tight">
+            Sobre mim
+          </h2>
+          <p className="mt-2 text-xs sm:text-sm text-muted-foreground text-wrap">
+          Profissional dedicado e motivado, atuo como Suporte Interno na Alterdata Software, com sólida experiência em API, Postman, testes de qualidade, e resolução de problemas técnicos.
+          </p>
+          <p className="mt-2 text-xs sm:text-sm text-muted-foreground text-wrap">
+          Estudante de Ciência da Computação, foco em Inteligência Artificial, Chatbots, desenvolvimento web com tecnologias como React, TypeScript, MongoDB, e frameworks Next.js e NestJS.
+          </p>
         </div>
       </div>
     </main>
